@@ -1,0 +1,2 @@
+# MSDNEnglishRedirect
+誤って日本語版MSDNに飛んでしまったときに英語版にリダイレクトしてくれる拡張機能
