@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "MSDN English Redirect",
+  "version": "1.0",
+  "author": "takubokudori",
+  "description": "Redirect to MSDN English page",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://msdn.microsoft.com/*",
+        "*://docs.microsoft.com/*"
+      ],
+      "js": [
+        "main.js"
+      ]
+    }
+  ]
+}
