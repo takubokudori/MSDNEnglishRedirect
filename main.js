@@ -1,4 +1,3 @@
-const MSDN_DOMAIN = ["msdn.microsoft.com", "docs.microsoft.com"];
 const url = window.location.toString();
 const scheme = url.substr(0, url.indexOf("://"));
 const x = url.substr(scheme.length + 3).split("/");
